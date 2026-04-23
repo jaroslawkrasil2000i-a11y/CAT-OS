@@ -102,8 +102,6 @@ class SoundPlayer:
     def shutdown():
         SoundPlayer.play_sound("shutdown")
 
-
-# ========== КАСТОМНОЕ ОКНО В СТИЛЕ CAT OS ==========
 class CatOSWindow:
     """Базовый класс для всех окон CAT OS с возможностью перетаскивания"""
     def __init__(self, title, width=800, height=600, parent=None):
