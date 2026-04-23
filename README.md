@@ -270,7 +270,6 @@ class Installer(CatOSWindow):
             messagebox.showwarning("🐱 CAT OS", "❌ Выбери файл для установки!")
 
 
-# ========== ПУСК ==========
 class StartMenu:
     def __init__(self, desktop, username):
         self.desktop = desktop
@@ -493,7 +492,6 @@ class CosmicBackground:
         self.canvas.after(50, self.animate)
 
 
-# ========== ПАНЕЛЬ ЗАДАЧ ==========
 class Win11Taskbar:
     def __init__(self, parent, toggle_start_callback, username):
         self.parent = parent
